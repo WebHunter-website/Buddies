@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Buddies",
+    "slug": "Buddies",
+    "privacy": "public",
+    "description": "wersja 1.0",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./src/img/logo.png",
+    "splash": {
+      "image": "./src/img/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "Buddies"
+    },
+    "android": {
+      "package": "com.Buddies202201",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/img/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
